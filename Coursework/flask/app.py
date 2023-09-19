@@ -170,7 +170,7 @@ def addfav():
         u = session["username"]
     else:
         print("No username in session")
-        return redirect("/login")  # or wherever you want to redirect
+        return redirect("/")  # or wherever you want to redirect
     con = sql.connect("database.db")
     cur = con.cursor()
     cur.execute("""
@@ -259,6 +259,5 @@ if __name__ == '__main__':
 # flask run -p 4999  
 # python3 -m venv venv
 # .\.venv\Scripts\activate 
-# set FLASK_DEBUG=1
- 
+# set FLASK_DEBUG=1 
 # streamlit run stats.py 
