@@ -2,7 +2,6 @@ flask
 result
 datetime
 requests
-json
 time
 streamlit
 pip._vendor.requests
