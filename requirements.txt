@@ -1,5 +1,4 @@
 flask
-sqlite3
 result
 datetime
 requests
