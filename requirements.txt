@@ -3,7 +3,6 @@ result
 datetime
 requests
 streamlit
-pip._vendor.requests
 pandas
 matplotlib.pyplot
 numpy
