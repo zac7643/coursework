@@ -1,1 +1,14 @@
-flask==3.0.0
+flask
+os
+sqlite3
+result
+datetime
+requests
+urllib.parse
+json
+time
+streamlit
+pip._vendor.requests
+pandas
+matplotlib.pyplot
+numpy
