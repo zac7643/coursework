@@ -2,7 +2,6 @@ flask
 result
 datetime
 requests
-urllib.parse
 json
 time
 streamlit
